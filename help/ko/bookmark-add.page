@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="bookmark-add" xml:lang="ko">
+
+  <info>
+    <link type="guide" xref="index#bookmark"/>
+    <link type="guide" xref="bookmark"/>
+    <revision pkgversion="3.10" date="2013-06-30" status="incomplete"/>
+
+    <credit type="author copyright">
+      <name>Aruna Sankaranarayanan</name>
+      <email its:translate="no">aruna.evam@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>어떻게 책갈피를 추가할 수 있나요?</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>ChangSeok Oh</mal:name>
+      <mal:email>changseok@gnome.org</mal:email>
+      <mal:years>2015, 2016</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gyuseok Jung</mal:name>
+      <mal:email>jgyuseok@gmail.com</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>페이지를 책갈피하기</title>
+
+  <p>페이지를 영원히 저장하고 재빨리 접근하기 위해 책갈피해보세요.</p>
+
+  <steps>
+    <title>책갈피를 추가하려면:</title>
+    <item>
+      <p>책갈피하길 원하는 웹 페이지로 갑니다.</p>
+    </item>
+    <item>
+      <p>창 오른쪽 상단의 메뉴를 선택하고, <guiseq> <gui style="menuitem">책갈피</gui> <gui style="menuitem">책갈피 추가…</gui></guiseq> 혹은 책갈피를 추가하기 위해 <keyseq><key>Ctrl</key><key>D</key></keyseq>를 누릅니다.</p>
+    </item>
+    <item>
+      <p><gui>제목</gui> 텍스트 입력란에 당신의 책갈피에 이름을 지어 주세요, 그러면 나중에 쉽게 구별할 수 있습니다.</p>
+    </item>
+    <item>
+      <p>당신이 그 책갈피를 하위 분류에 두고 싶은 주제를 입력해 보세요 그리고 일단 그 주제가 나타나면 선택하세요. 만약 그것이 존재하지 않는다면, 목록에서 <gui>주제 생성"<input>주제 이름</input>"</gui>을 선택합니다. 다른 주제 이름을 콤마로 구분하세요.</p>
+    </item>
+    <item>
+      <p>새로운 책갈피를 추가하기 위해 <gui style="button">추가</gui>를 누릅니다.</p>
+    </item>
+  </steps>
+
+  <p><gui style="button">유사한</gui> 버튼은 당신이 추가하려는 페이지에 대해  현존하는 책갈피 수를 표시합니다. 만약 최소 하나의 책갈피가 존재한다면, <gui style="button">유사한</gui> 버튼이 클릭 가능해집니다. 그러면 그 현존하는 책갈피를 살펴보거나 혹은 그것을 새로운 것으로 합칠 수 있습니다.</p>
+
+</page>

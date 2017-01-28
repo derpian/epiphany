@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" id="bookmark-topic" xml:lang="sv">
+
+  <info>
+    <link type="guide" xref="index#bookmark"/>
+    <link type="guide" xref="bookmark"/>
+    <revision pkgversion="3.10" date="2013-07-05" status="review"/>
+
+    <credit type="author copyright">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+<!--    <credit type="copyright editor">
+      <name></name>
+      <email its:translate="no"></email>
+      <years></years>
+    </credit>-->
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Vad är ämnen och hur kan jag använda dem för att sortera bokmärken?</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Anders Jonsson</mal:name>
+      <mal:email>anders.jonsson@norsjovallen.se</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Ämnen</title>
+
+  <p>Du kan sortera dina bokmärken i olika kategorier med hjälp av <em>ämnen</em>.</p>
+
+  <steps>
+    <item>
+      <p>Öppna <guiseq><gui style="menu">Webb</gui><gui style="menuitem">Bokmärken</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Välj <guiseq><gui style="menu">Arkiv</gui><gui style="menuitem">Nytt ämne</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Skriv in det nya bokmärkesnamnet och tryck <key>Retur</key> för att spara det.</p>
+    </item>
+  </steps>
+
+  <p>Du kan också skapa ett nytt ämne då du <link xref="bookmark-add">lägger till ett nytt bokmärke</link>.</p>
+
+</page>

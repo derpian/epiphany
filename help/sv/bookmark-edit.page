@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="bookmark-edit" xml:lang="sv">
+
+  <info>
+    <link type="guide" xref="index#bookmark"/>
+    <link type="guide" xref="bookmark"/>
+    <revision pkgversion="3.10" date="2013-07-01" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Aruna Sankaranarayanan</name>
+      <email its:translate="no">aruna.evam@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Hur redigerar jag ett befintligt bokmärke?</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Anders Jonsson</mal:name>
+      <mal:email>anders.jonsson@norsjovallen.se</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Uppdatera ett bokmärke</title>
+
+  <p>Du kan uppdatera dina befintliga bokmärken genom att redigera deras egenskaper.</p>
+
+  <steps>
+    <title>För att redigera ett bokmärke:</title>
+    <item>
+      <p>Välj <guiseq><gui style="menu">Webb</gui> <gui style="menuitem">Bokmärken</gui></guiseq> för att öppna fönstret <gui>Bokmärken</gui>.</p>
+    </item>
+    <item>
+      <p>Välj ämnet som innehåller ditt bokmärke från <gui>Ämnen</gui>-listan på den vänstra sidan.</p>
+    </item>
+    <item>
+      <p>En lista över bokmärken i det valda ämnet kommer visas på fönstrets högra sida. Markera bokmärkena du vill uppdatera och välj sedan <guiseq><gui style="menu">Arkiv</gui><gui style="menuitem">Egenskaper</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Du kan nu uppdatera bokmärkets titel, dess URL och ämnena som innehåller bokmärket.</p>
+    </item>
+  </steps>
+
+	<p>Om du bara vill byta namn på ett bokmärke, högerklicka på det, välj <gui style="menuitem">Byt namn…</gui> och skriv in det nya namnet på ditt bokmärke.</p>
+
+</page>

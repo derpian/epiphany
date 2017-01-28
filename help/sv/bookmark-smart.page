@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" id="bookmark-smart" xml:lang="sv">
+
+  <info>
+    <link type="guide" xref="index#bookmark"/>
+    <link type="guide" xref="bookmark"/>
+    <revision pkgversion="3.10" date="2013-07-02" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+<!--    <credit type="copyright editor">
+      <name></name>
+      <email its:translate="no"></email>
+      <years></years>
+    </credit>-->
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Vad är smarta bokmärken och hur lägger jag till ett?</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Anders Jonsson</mal:name>
+      <mal:email>anders.jonsson@norsjovallen.se</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Smarta bokmärken</title>
+
+  <p>Ett smart bokmärke används för att lägga till en sökning till adressraden. Detta kan vara användbart om du ofta föredrar att använda en speciell sökmotor.</p>
+
+  <steps>
+    <title>Lägg till ett smart bokmärke</title>
+    <item>
+      <p>Utför en sökning med sökmotorn som du vill lägga till.</p>
+    </item>
+    <item>
+      <p>Bokmärk sidan, och ersätt söktermen med <input>%s</input> i URL:en.</p>
+    </item>
+  </steps>
+
+  <example>
+    <p>Till exempel, om du vill kunna söka i GNOME:s användarhjälp, starta med att göra en testsökning som exempelvis för ”epiphany”. Den resulterande URL:en kommer se ut som https://help.gnome.org/search?q=epiphany. För att <link xref="bookmark-add">lägga till ”bokmärket”</link>, ersätt <input>epiphany</input> med <input>%s</input> då du bokmärker sidan så att <gui>Adress</gui> ser ut som <input>https://help.gnome.org/search?q=%s</input>. Du kan också vilja använda en <gui>Titel</gui> som <input>Sök i GNOME:s hjälp</input>.</p>
+    <p>Då du nästa gång börjar skriva i adressfältet kommer du se <gui>Sök i GNOME:s hjälp</gui> där din <link xref="history">surfhistorik</link> vanligen skulle visas. Klicka på den för att utföra sökningen.</p>
+  </example>
+
+  <p>Förutom för sökmotorer kan du också använda smarta bokmärken för andra frågor, som att söka en produkt i en nätbutik.</p>
+
+</page>

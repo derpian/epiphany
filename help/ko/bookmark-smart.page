@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" id="bookmark-smart" xml:lang="ko">
+
+  <info>
+    <link type="guide" xref="index#bookmark"/>
+    <link type="guide" xref="bookmark"/>
+    <revision pkgversion="3.10" date="2013-07-02" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+<!--    <credit type="copyright editor">
+      <name></name>
+      <email its:translate="no"></email>
+      <years></years>
+    </credit>-->
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>영리한 책갈피는 무엇이고 어떻게 추가하나요?</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>ChangSeok Oh</mal:name>
+      <mal:email>changseok@gnome.org</mal:email>
+      <mal:years>2015, 2016</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gyuseok Jung</mal:name>
+      <mal:email>jgyuseok@gmail.com</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>영리한 책갈피</title>
+
+  <p>영리한 책갈피는 주소창에 검색어를 추가하는데 흔히 사용됩니다. 만약 당신이 특정 검색 엔진을 정기적으로 사용하는 것을 선호한다면, 이것이 도움이 될 수 있습니다.</p>
+
+  <steps>
+    <title>영리한 책갈피 추가하기</title>
+    <item>
+      <p>추가하고 싶은 검색 엔진을 사용해서 검색 수행하기</p>
+    </item>
+    <item>
+      <p>URL 안의 <input>%s</input>로 검색어를 교체하고, 페이지를 책갈피하기.</p>
+    </item>
+  </steps>
+
+  <example>
+    <p>예를 들어, 만약 당신이 그놈 사용자 도움말을 검색하길 원한다고 하면, "epiphany" 같은 실험용 검색을 하는 것으로 시작해 보세요. 그 결과 URL은 https://help.gnome.org/search?q=epiphany처럼 보일 것입니다. <link xref="bookmark-add">그 "책갈피"를 추가하기</link>위해서는, 그 페이지를 책갈피할 때 <input>epiphany</input>를 <input>%s</input>로 바꿔보세요, 그러면 <gui>주소</gui>가 <input>https://help.gnome.org/search?q=%s</input>처럼 보일 것 입니다. 또한, 당신은 아마도 <input>그놈 도움말 검색하기</input>같은 <gui>제목</gui>을 사용하길 원할 지도 모르겠습니다.</p>
+    <p>다음에 당신이 주소창에 입력을 시작할 때, <link xref="history">방문 기록</link>이 보통 보이는 곳에서 <gui>그놈 도움말 검색하기</gui>를 볼 수 있을 것 입니다. 그 검색을 시키기 위해 그것을 클릭하세요.</p>
+  </example>
+
+  <p>검색 엔진과 별개로, 당신은 또한 온라인 상점에서 상품 검색하기 같은 다른 질의를 위해 영리한 책갈피를 사용할 수도 있습니다.</p>
+
+</page>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="bookmark-add" xml:lang="sv">
+
+  <info>
+    <link type="guide" xref="index#bookmark"/>
+    <link type="guide" xref="bookmark"/>
+    <revision pkgversion="3.10" date="2013-06-30" status="incomplete"/>
+
+    <credit type="author copyright">
+      <name>Aruna Sankaranarayanan</name>
+      <email its:translate="no">aruna.evam@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Hur lägger jag till ett bokmärke?</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Anders Jonsson</mal:name>
+      <mal:email>anders.jonsson@norsjovallen.se</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Bokmärka en sida</title>
+
+  <p>Bokmärk en sida för att lagra den permanent och komma åt den snabbt.</p>
+
+  <steps>
+    <title>För att lägga till ett bokmärke:</title>
+    <item>
+      <p>Gå till webbplatsen som du vill bokmärka.</p>
+    </item>
+    <item>
+      <p>Välj menyn högst upp till höger i fönstret, sedan <guiseq> <gui style="menuitem">Bokmärken</gui> <gui style="menuitem">Lägg till bokmärke…</gui></guiseq> eller tryck <keyseq><key>Ctrl</key><key>D</key></keyseq> för att lägga till ett bokmärke.</p>
+    </item>
+    <item>
+      <p>Namnge ditt bokmärke i textinmatningsfältet <gui>Titel</gui> så att du lätt kan känna igen det i framtiden.</p>
+    </item>
+    <item>
+      <p>Börja skriva in ämnet som du vill gruppera bokmärket under och välj det då det visas. Om det inte existerar, välj <gui>Skapa ämnet ”<input>Ämnesnamn</input>”</gui> från listan. Skilj olika ämnesnamn åt med kommatecken.</p>
+    </item>
+    <item>
+      <p>Tryck <gui style="button">Lägg till</gui> för att lägga till det nya bokmärket.</p>
+    </item>
+  </steps>
+
+  <p>Knappen <gui style="button">Liknande</gui> visar antalet befintliga bokmärken för sidan som du lägger till. Om det finns minst ett befintligt bokmärke blir knappen <gui style="button">Liknande</gui> klickbar. Du kan då visa det befintliga bokmärket eller sammanfoga det med det nya.</p>
+
+</page>
